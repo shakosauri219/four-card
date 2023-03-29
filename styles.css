@@ -1,0 +1,139 @@
+body {
+    padding: 85px 8.5% 78px 8.5% ;
+    background-color: #F2F2F2;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    letter-spacing: 0.1666666716337204px;
+    text-align: left;
+    color: #4D4F62;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1666666716337204px;
+    text-align: center;
+    color: #4D4F62;
+    margin-bottom: 13px;
+}
+
+header p {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1041666641831398px;
+    text-align: center;
+    color: #4D4F62;    
+    opacity: 50%;
+}
+
+main {
+    margin-top: 76px;
+    max-width: 500px;
+}
+
+.card {
+    padding: 28px 28px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4D4F62;
+}
+
+.card p {
+    margin-bottom: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.0902777761220932px;
+    text-align: left;
+    color: #4D4F62;
+    opacity: 50%;
+}
+
+.card img {
+    align-self: flex-end;
+    height: 57px;
+    width: 57px;
+}
+
+.first {
+    background: linear-gradient(to bottom, #44D3D2 3.55px, #ffffff 0);
+}
+
+.second {
+    background: linear-gradient(to bottom, #EA5454 3.55px, #ffffff 0);
+}
+
+.third {
+    background: linear-gradient(to bottom, #FCAE4A 3.55px, #ffffff 0);
+}
+
+.fourth {
+    background: linear-gradient(to bottom, #549EF2 3.55px, #ffffff 0);
+}
+
+
+@media screen and (min-width:1440px) {
+    body {
+        padding: 80px 11.4% 80px 11.4%;
+    }
+
+    header {
+        max-width: 37.5%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        max-width: none;
+        column-gap: 2%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 64px;
+    }
+    
+    .middle-cards {
+        width: 350px;
+    }
+
+    .middle-cards .third {
+        margin: 0;
+    }
+
+    .first , .fourth {
+        margin: 0;
+        width: 294px;
+    }
+}
+
